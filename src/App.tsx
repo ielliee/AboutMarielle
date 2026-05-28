@@ -1,4 +1,10 @@
-import { ArrowUpRight, Mail, Phone, Instagram, Linkedin, Facebook, Code2, Palette, Users } from "lucide-react";
+import {
+  ArrowUpRight,
+  Mail,
+  Code2,
+  Palette,
+  Users,
+} from "lucide-react";
 import { Navbar } from "./components/portfolio/Navbar";
 import { Reveal } from "./components/portfolio/Reveal";
 import { FloatingShapes } from "./components/portfolio/FloatingShapes";
@@ -299,23 +305,13 @@ export default function App() {
 
 <li>
   <a
-    href="tel:+639696190723"
-    className="inline-flex items-center gap-2 hover:text-foreground transition"
-  >
-    <Phone className="w-4 h-4" strokeWidth={1.5} />
-    <span>+63 969 619 0723</span>
-  </a>
-</li>
-
-<li>
-  <a
     href="https://www.instagram.com/ielliemarr/"
     target="_blank"
     rel="noopener noreferrer"
     className="inline-flex items-center gap-2 hover:text-foreground transition"
   >
-    <Instagram className="w-4 h-4" strokeWidth={1.5} />
-    <span>Instagram</span>
+    <span>◎</span>
+    <span>@ielliemarr</span>
   </a>
 </li>
 
@@ -326,7 +322,7 @@ export default function App() {
     rel="noopener noreferrer"
     className="inline-flex items-center gap-2 hover:text-foreground transition"
   >
-    <Linkedin className="w-4 h-4" strokeWidth={1.5} />
+    <span>in</span>
     <span>LinkedIn</span>
   </a>
 </li>
@@ -338,7 +334,7 @@ export default function App() {
     rel="noopener noreferrer"
     className="inline-flex items-center gap-2 hover:text-foreground transition"
   >
-    <Facebook className="w-4 h-4" strokeWidth={1.5} />
+    <span>f</span>
     <span>Facebook</span>
   </a>
 </li>
