@@ -284,7 +284,7 @@ export default function App() {
           </Reveal>
           <Reveal delay={120}>
             <a
-              href="mailto:hello@portfolio.app"
+              href="mailto:mariellemalla5@gmail.com"
               className="inline-block mt-10 text-lg md:text-xl underline underline-offset-8 decoration-1 hover:decoration-foreground transition"
             >
               mariellemalla5@gmail.com
@@ -311,7 +311,7 @@ export default function App() {
     className="inline-flex items-center gap-2 hover:text-foreground transition"
   >
     <span>◎</span>
-    <span>@ielliemarr</span>
+    <span>Instagram</span>
   </a>
 </li>
 
